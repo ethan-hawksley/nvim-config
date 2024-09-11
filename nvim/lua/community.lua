@@ -11,5 +11,6 @@ return {
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.code-runner.compiler-nvim" },
   -- import/override with your plugins folder
 }

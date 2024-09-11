@@ -10,6 +10,7 @@ return {
           -- mappings seen under group name "Buffer"
           ["<Leader>rr"] = { ":!cargo run<cr>", desc = "Run Rust Project" },
           ["<Leader>ra"] = { ":RustRun<cr>", desc = "Run Rust File" },
+          ["<Leader>rp"] = { ":term python %<cr>", desc = "Run Python File" },
           -- tables with the `name` key will be registered with which-key if it's installed
           -- this is useful for naming menus
           ["<Leader>r"] = { name = "Custom" },
